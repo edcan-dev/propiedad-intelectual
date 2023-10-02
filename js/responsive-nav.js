@@ -7,7 +7,7 @@ responsiveNavButton.addEventListener('click', (ev)=> {
     ev.preventDefault();
 
     if(!hidden) {
-        navContainer.style.left = '-250px';
+        navContainer.style.left = '-300px';
         hidden = true;
     } else {
         navContainer.style.left = '0px';

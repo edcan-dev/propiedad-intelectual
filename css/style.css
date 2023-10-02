@@ -12621,12 +12621,12 @@ audio {
   padding: 40px 20px;
 }
 
-.section-nav>nav>ul>li {
+.section-nav>nav>div>ul>li {
   padding-top: 10px;
   list-style: none;
 }
 
-.section-nav>nav>ul>li>a {
+.section-nav>nav>div>ul>li>a {
   color: #303440;
   display: block;
 }
@@ -12774,7 +12774,7 @@ audio {
     height: calc(100vh - 300px);
     border-radius: 0px 15px 15px 0px;
     box-shadow: 5px 0px 40px 0px rgba(0, 0, 0, .8);
-    left: -250px;
+    left: -300px;
     transition: left .5s ease-in-out;
   }
 
