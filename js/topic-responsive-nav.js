@@ -1,4 +1,7 @@
-const dns = window.location.origin;
+const githubPrefix = window.location.origin.includes('github') ? '/propiedad-intelectual' : '';
+const dns = window.location.origin + githubPrefix;
+
+console.log(dns);
 
 document.body.innerHTML += `
 <button id="nav-button" class="btn btn-lg btn-lg nav-button bg-blue-apple">
