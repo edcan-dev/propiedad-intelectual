@@ -19,9 +19,12 @@
     color: #C5DDF5;
   }
   .panel {
-    padding: 0 18px;
     background-color: C5DDF5;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+
+    & ul {
+      padding: 0px !important;
+    }
   }
