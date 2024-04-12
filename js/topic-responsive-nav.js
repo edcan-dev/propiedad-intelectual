@@ -7,7 +7,7 @@ document.body.innerHTML += `
 <button id="nav-button" class="btn btn-lg btn-lg nav-button bg-blue-apple">
   <i class="fa fa-bars color-light"></i>
 </button>
-<section class="section-nav">
+<section class="section-nav--topic">
 <h4>Contenidos:</h4>
   <nav>
     <ul> Introducción </ul>
@@ -125,7 +125,7 @@ document.body.innerHTML += `
 let hidden = true;
 
 const responsiveNavButton = document.querySelector("#nav-button");
-const navContainer = document.querySelector(".section-nav");
+const navContainer = document.querySelector(".section-nav--topic");
 
 responsiveNavButton.addEventListener("click", (ev) => {
   ev.preventDefault();

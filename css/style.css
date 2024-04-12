@@ -12631,6 +12631,21 @@ audio {
   color: #303440;
   display: block;
 }
+.section-nav--topic {
+  background-color: #C5DDF5;
+  padding: 40px 20px;
+  z-index: 100;
+}
+
+.section-nav--topic>nav>div>ul>li {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.section-nav--topic>nav>div>ul>li>a {
+  color: #303440;
+  display: block;
+}
 
 .tema-li-element {
   text-indent: 10px;
@@ -12932,4 +12947,10 @@ audio {
   box-shadow: 5px 0px 40px 0px rgba(0, 0, 0, .8);
   left: -300px;
   transition: left .5s ease-in-out;
+}
+
+@media (min-width: 750px) {
+  .section-nav--topic {
+    display: none !important;
+  }
 }
