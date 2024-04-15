@@ -1,9 +1,5 @@
-Esta es una versión de desarrollo con videos del micrositio para "Internet of Things".
+# Especialidad Dual - Innovación Tecnológica
 
-Todos los videos y recursos están disponibles gracias a Azure Blob Storage.
+Especildad Dual realizada durante 2023 por **Yesenia Hernández Ramírez**
 
-HOLA CULEIS
-
-https://delightful-mushroom-03c51fb10.2.azurestaticapps.net
-sal de aqui hijo de rremil
-# propiedad-intelectual
+![Especialidad](./assets/imgs/course-6.jpg)
